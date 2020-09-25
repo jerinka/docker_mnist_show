@@ -44,6 +44,7 @@ python train.py
 ```
 docker build -t jerinka/opencv_tf:gpu . -f Dockerfile.gpu```
 ```
+```
 docker push jerinka/opencv_tf:gpu
 ```
 ### CPU Image
