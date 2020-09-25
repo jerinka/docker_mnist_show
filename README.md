@@ -11,20 +11,20 @@
 
 ## Running gpu docker image
 
-bash runDocker_gpu.sh
+```bash runDocker_gpu.sh```
  
 ## Running cpu docker image
 
-bash runDocker_cpu.sh
+```bash runDocker_cpu.sh```
  
  
 ## Running imshow example 
 
-python3 show.py
+```python3 show.py```
 
 ## Running MNIST training example
 
-python train.py
+```python train.py```
 
 
 
@@ -32,15 +32,16 @@ python train.py
 
 ### GPU Image
 
-```
-docker build -t jerinign/opencv_tf:gpu . -f Dockerfile.gpu
 
-docker push jerinign/opencv_tf:gpu
+```docker build -t jerinka/opencv_tf:gpu . -f Dockerfile.gpu```
+```
+docker push jerinka/opencv_tf:gpu
 ```
 ### CPU Image
 ```
-docker build -t jerinign/opencv_tf:cpu . -f Dockerfile.cpu
-
-docker push jerinign/opencv_tf:cpu
+docker build -t jerinka/opencv_tf:cpu . -f Dockerfile.cpu
+```
+```
+docker push jerinka/opencv_tf:cpu
 ```
 
